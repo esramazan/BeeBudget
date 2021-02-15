@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gidereklesil_arkaplan"
+    tools:context=".Activitys.Gider_Ekle_Sil"
+    >
+    <TextView
+        android:id="@+id/txtgiderkullad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:text="Kullanıcı Adı"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtgiderkullad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Kullanıcı adınız"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtgiderid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="84dp"
+        android:text="Gider no"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtgiderid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:hint="Gider sıra numarası"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtgider_tutari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="160dp"
+        android:text="Tutar"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtgider_tutar"
+        android:layout_width="201dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="Tutar"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtgider_turu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="227dp"
+        android:text="Açıklama"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtgider_turu"
+        android:layout_width="204dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="205dp"
+        android:ems="10"
+        android:hint="Türü: Fatura/Alışveriş vb"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/txtgidertarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="311dp"
+        android:text="Tarih"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtgidertarih"
+        android:layout_width="203dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="291dp"
+        android:ems="10"
+        android:hint="01.12.2020"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/gider_ekle"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="367dp"
+        android:text="EKLE" />
+
+    <Button
+        android:id="@+id/gider_sil"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="366dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="SİL"
+        android:textColor="@color/purple_200" />
+
+    <Button
+        android:id="@+id/gider_anasayfaya_don"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="427dp"
+        android:backgroundTint="#A9E3D2C9"
+        android:text="Ana Sayfaya Dön"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="640dp"
+        android:text="Eklemek için gider no yazmanıza gerek yoktur.             Silmek için sadece gider no alanını doldurmanız yeterlidir." />
+
+
+
+</RelativeLayout>

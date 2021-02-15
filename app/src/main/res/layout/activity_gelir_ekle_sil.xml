@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Gelir_Ekle_Sil"
+    android:background="@drawable/arkaplanlar"
+    >
+
+    <TextView
+        android:id="@+id/txtgelirkullad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:text="Kullanıcı Adı"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtgelirkullad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Kullanıcı adınız"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtgelirid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="76dp"
+        android:text="Gelir no"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtgelirid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:hint="Gelir sıra numarası"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtgelir_tutari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="129dp"
+        android:text="Tutar"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtgelir_tutar"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="121dp"
+        android:ems="10"
+        android:hint="Tutar"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/txtgelir_turu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="191dp"
+        android:text="Açıklama"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtgelir_turu"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="177dp"
+        android:ems="10"
+        android:hint="Türü: Maaş/Tahsilat vb"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txttarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="258dp"
+        android:text="Tarih"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edttarih"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="241dp"
+        android:ems="10"
+        android:hint="01.12.2020"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/gelir_ekle"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="304dp"
+        android:text="EKLE" />
+
+    <Button
+        android:id="@+id/gelir_sil"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="305dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="SİL"
+        android:textColor="@color/purple_200" />
+
+    <Button
+        android:id="@+id/anasayfaya_don"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="366dp"
+        android:backgroundTint="#A9E3D2C9"
+        android:text="Ana Sayfaya Dön"
+        android:textColor="@color/black" />
+
+   <!-- <ListView
+        android:id="@+id/gelirlist"
+        android:layout_width="411dp"
+        android:layout_height="240dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="389dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="116dp" />
+-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="640dp"
+        android:text="Eklemek için gelir no yazmanıza gerek yoktur.              Silmek için sadece gelir no alanını doldurmanız yeterlidir." />
+
+
+
+
+</RelativeLayout>

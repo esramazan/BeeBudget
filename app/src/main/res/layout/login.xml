@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/login_arkaplan"
+    >
+
+
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="269dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:background="#11111111"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint=" Kullanıcı Adı"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="269dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="305dp"
+        android:layout_marginBottom="237dp"
+        android:background="#11111111"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint=" Şifre"
+        android:inputType="textPassword"
+        android:password="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        app:srcCompat="@drawable/logo_progismi" />
+
+    <Button
+        android:id="@+id/girisyap"
+        android:layout_width="313dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="@color/black"
+        android:onClick="girisyap_oncl"
+        android:text="Giriş"
+        android:textColor="@color/purple_200" />
+
+    <Button
+        android:id="@+id/kaydol"
+        android:layout_width="313dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:onClick="kaydol_oncl"
+        android:text="Kayıt Ol"
+        android:textColor="@color/purple_200" />
+
+</RelativeLayout>
+
+<!--
+ android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+
+
+
+
+         <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="25dp"
+        android:elevation="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp">
+
+        <RelativeLayout
+            android:id="@+id/rlt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/txtgiris"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="monospace"
+                android:text="Giriş"
+                android:textColor="@color/purple_700"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+     <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="25dp"
+        android:elevation="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp">
+
+        <RelativeLayout android:id="@+id/rlt2"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="monospace"
+                android:text="Kayıt Ol"
+                android:textColor="@color/purple_700"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+-->
