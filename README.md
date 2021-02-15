@@ -1,7 +1,7 @@
 # BeeBudget
 (Bütçe / Masraf yönetimi uygulaması)
 
-Gelir ve gider verilerini girdikten sonra ana sayfada bu veriler sonucunda değişen bakiyenin ve gelir gider toplamlarının görüntülenmesi, girilen verileri gelir gider olarak ayrı sayfalarda listelenmesi, açıklama ve tarih bilgileriyle ne zaman, ne kadar, ne sebeple gelir veya gider olduğunu görmek mümkündür.
+Gelir ve gider verilerini girdikten sonra ana sayfada bu veriler sonucunda değişen bakiyenin ve gelir gider toplamlarının görüntülenmesi, girilen verilerin gelir gider olarak ayrı sayfalarda listelenmesi, açıklama ve tarih bilgileriyle ne zaman, ne kadar, ne sebeple gelir veya gider olduğunu görmek mümkündür.
 
 
 Splash Activity ekranı 
