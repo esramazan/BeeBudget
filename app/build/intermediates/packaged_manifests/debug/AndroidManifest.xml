@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.beebudget"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/uyg_logosu"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/uyg_logosu"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.BeeBudget" >
+        <activity android:name="com.example.beebudget.Activitys.Gider_Ekle_Sil" />
+        <activity android:name="com.example.beebudget.Activitys.Gelir_Ekle_Sil" />
+        <activity android:name="com.example.beebudget.Activitys.Gider_Sayfasi" />
+        <activity android:name="com.example.beebudget.Activitys.Gelir_Sayfasi" />
+        <activity android:name="com.example.beebudget.Activitys.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.beebudget.Activitys.Giris_Activity" />
+        <activity android:name="com.example.beebudget.Activitys.MainActivity" />
+    </application>
+
+</manifest>
